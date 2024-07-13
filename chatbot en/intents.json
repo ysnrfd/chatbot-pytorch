@@ -1,0 +1,257 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you?", "What's up?", "Good morning", "Good afternoon", "Good evening", "Hi there", "Greetings"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Hi! How can I help you today?", "Nice to see you!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care", "I have to go now", "Until next time", "Have a good one", "Bye bye", "Catch you later", "Farewell"],
+      "responses": ["Goodbye!", "See you later!", "Have a great day!", "Bye! Take care!", "Until next time!", "Take it easy!", "Bye bye!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "Thank you so much", "Appreciate it", "I appreciate your help", "Thanks for the assistance", "Much obliged"],
+      "responses": ["You're welcome!", "No problem!", "My pleasure!", "Happy to help!", "Anytime!", "Glad I could assist!", "You're welcome! How else can I assist you?"]
+    },
+    {
+      "tag": "options",
+      "patterns": ["What can you do?", "What are my options?", "How can you help?", "Tell me what you offer", "Show me what you can do", "Can you assist me with something?", "Help me out"],
+      "responses": ["I can assist you with various tasks. Just ask me anything!", 
+                    "I'm here to help with anything you need. Ask away!",
+                    "I can answer questions, provide information, or just chat with you."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Do you have a name?", "Who are you?", "What should I call you?", "Are you a bot?", "What do I call you?"],
+      "responses": ["I'm a chatbot!", "I'm your virtual assistant!", "You can call me Chatbot!", "I go by Chatbot.", "Yes, I'm an AI."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "How's the weather today?", "Is it going to rain?", "Check the weather", 
+                   "What's the forecast for tomorrow?", "Will it be sunny?", "Do I need an umbrella?", "Should I wear a jacket?", "Weather update"],
+      "responses": ["To check the weather, please provide your location.", 
+                    "I can find out the weather for you. Just let me know where you are!",
+                    "Let me check the weather forecast for you."]
+    },
+    {
+      "tag": "unknown",
+      "patterns": ["I don't know", "I'm not sure", "Maybe", "Not sure", "I'm confused", "What do you think?", 
+                   "I have no idea", "Can you clarify?", "I need more information", "Can you explain?"],
+      "responses": ["That's okay!", "No worries!", "It's alright not to know everything.", 
+                    "Sometimes it's okay not to be sure.", "I can try to provide more information if you'd like."]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": ["Tell me about yourself", "What are you?", "What can you tell me about your capabilities?", 
+                   "Who created you?", "What is your purpose?", "Why were you created?", "Are you human?"],
+      "responses": ["I'm an AI chatbot designed to assist you with information and tasks.", 
+                    "I'm here to provide you with information and engage in conversation.", 
+                    "I'm a virtual assistant created to help you with a wide range of queries.",
+                    "I am an artificial intelligence programmed to assist users like yourself."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Help me with something", "I'm stuck", 
+                   "Can you assist me?", "Help please", "Support needed", "Can you guide me?"],
+      "responses": ["Of course! What do you need help with?", 
+                    "Sure thing! Tell me what you need assistance with.", 
+                    "I'm here to help. Just let me know how I can assist you.",
+                    "How can I assist you today?"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?", "When were you created?", "Birthdate", "How long have you existed?"],
+      "responses": ["I don't have an age as I'm a virtual entity.", 
+                    "I exist in the digital realm, so I don't age.", 
+                    "I was created recently and am constantly learning.",
+                    "I am a relatively new creation in the digital world."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Do you know any jokes?", "Make me laugh", 
+                   "Share a funny story", "Humor me", "I could use a laugh", "Entertain me"],
+      "responses": ["Sure! Why don't skeletons fight each other? They don't have the guts!", 
+                    "What did one ocean say to the other ocean? Nothing, they just waved!", 
+                    "How does a penguin build its house? Igloos it together!",
+                    "Here's a joke for you: Why don't scientists trust atoms? Because they make up everything!"]
+    },
+    {
+      "tag": "music",
+      "patterns": ["Play some music", "Can you recommend music?", "What's your favorite song?", 
+                   "Listen to music", "Music suggestions", "Any good playlists?", "I want to hear some music", "Music recommendations"],
+      "responses": ["I can't play music, but I can recommend some great songs!", 
+                    "I don't have personal favorites, but I can suggest music genres or artists.",
+                    "Here are some music recommendations based on popular genres."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["Tell me the latest news", "What's happening in the world?", "Any news updates?", 
+                   "Current events", "Top headlines", "News summary", "What's the breaking news?", "Any recent news?"],
+      "responses": ["I can provide news updates if you specify a topic or category.", 
+                    "The news changes constantly. Let me know what you're interested in.",
+                    "Here are some of the latest news headlines."]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["Tell me about the latest technology", "What's new in tech?", "Tech trends", 
+                   "Emerging technologies", "Tech news", "Recent innovations", "What's cutting-edge in technology?", "Any tech updates?"],
+      "responses": ["The field of technology is vast and evolving. Is there a specific area you're interested in?",
+                    "There are many exciting developments in technology. What aspect would you like to explore?",
+                    "Here are some recent innovations in the world of technology."]
+    },
+    {
+      "tag": "education",
+      "patterns": ["Tell me about education trends", "What's new in education?", "Education updates", 
+                   "Learning innovations", "Educational news", "Recent developments in education", "What's happening in the world of learning?"],
+      "responses": ["Education is evolving rapidly. Are you interested in a particular aspect of education?",
+                    "There are various educational trends and innovations. What would you like to know more about?",
+                    "Here are some recent developments in the field of education."]
+    },
+    {
+      "tag": "health",
+      "patterns": ["Health tips", "What's new in health?", "Healthcare updates", 
+                   "Wellness information", "Medical news", "Recent health developments", "What's happening in healthcare?"],
+      "responses": ["Health and wellness are crucial. What specific health information are you looking for?",
+                    "There are many recent developments in healthcare. What aspect of health interests you?",
+                    "Here are some updates on health and wellness."]
+    },
+    {
+      "tag": "finance",
+      "patterns": ["Finance advice", "What's new in finance?", "Financial updates", 
+                   "Investment tips", "Money news", "Recent financial developments", "What's happening in finance?"],
+      "responses": ["Finance and investments are important topics. What financial information do you need?",
+                    "There are various updates in the world of finance. What specific area interests you?",
+                    "Here are some recent financial developments."]
+    },
+    {
+      "tag": "business",
+      "patterns": ["Business trends", "What's new in business?", "Business updates", 
+                   "Entrepreneurship news", "Recent business developments", "What's happening in the business world?", "Startup advice"],
+      "responses": ["Business trends are constantly changing. What aspect of business are you curious about?",
+                    "There are many recent developments in the business world. What business topic interests you?",
+                    "Here are some updates on business and entrepreneurship."]
+    },
+    {
+      "tag": "movies",
+      "patterns": ["Recommend movies", "What's a good movie to watch?", "Any movie suggestions?", 
+                   "Recent movies", "Best films", "Movie recommendations", "Top movies", "Favorite films"],
+      "responses": ["I can recommend movies based on different genres or themes.", 
+                    "There are many great movies out there. What genre are you interested in?",
+                    "Here are some popular movies across various genres."]
+    },
+    {
+      "tag": "books",
+      "patterns": ["Recommend books", "What's a good book to read?", "Any book suggestions?", 
+                   "Recent books", "Bestsellers", "Book recommendations", "Top books", "Favorite authors"],
+      "responses": ["I can suggest books from different genres or authors.", 
+                    "There are many great books to explore. What genre do you prefer?",
+                    "Here are some highly recommended books."]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Sports updates", "Latest sports news", "Sports scores", 
+                   "Upcoming matches", "Favorite sport", "Sporting events", "Athlete news"],
+      "responses": ["I can provide updates on various sports and sporting events.", 
+                    "Sports news changes frequently. What specific sport are you interested in?",
+                    "Here are some recent sports updates."]
+    },
+    {
+      "tag": "pets",
+      "patterns": ["Pet care tips", "Advice for pet owners", "Pet health", 
+                   "Popular pets", "Pet recommendations", "Animal care", "Pet adoption"],
+      "responses": ["Pets are wonderful companions. What specific pet care information do you need?",
+                    "There's a lot to learn about pet care. What kind of pet do you have or want?",
+                    "Here are some tips for taking care of pets."]
+    },
+    {
+      "tag": "travel",
+      "patterns": ["Travel advice", "Destination recommendations", "Best places to travel", 
+                   "Travel tips", "Vacation ideas", "Traveling abroad", "Top destinations", "Favorite travel spots"],
+      "responses": ["Traveling is exciting! Where are you planning to go or what do you want to know?",
+                    "There are many great travel destinations. What type of travel are you interested in?",
+                    "Here are some travel tips and destination recommendations."]
+    },
+    {
+      "tag": "story",
+      "patterns": ["Tell me a story", "Share a story", "Story time", 
+                   "Can you tell stories?", "Narrate a story", "Any interesting stories?", "Do you know any stories?"],
+      "responses": ["Once upon a time, in a land far away...",
+                    "Sure! Here's a story for you: Once there was a curious explorer...",
+                    "Here's a short story: In a small village nestled in the mountains..."]
+    },
+    {
+      "tag": "country",
+      "patterns": ["Tell me about a country", "Country information", "Interesting countries", 
+                   "Facts about countries", "Country facts", "Explore a country", "Learn about countries", "Country profile"],
+      "responses": ["Sure! Which country are you interested in learning about?",
+                    "I can provide information about different countries. Which one would you like to know about?",
+                    "Here are some interesting facts about different countries."]
+    },
+    {
+      "tag": "country_details",
+      "patterns": ["Tell me about {country}", "What do you know about {country}?", "Country profile of {country}", 
+                   "Information on {country}", "Details about {country}", "Learn about {country}"],
+      "responses": ["Let me find information about {country}.", 
+                    "I'll look up details about {country} for you.", 
+                    "Here are some facts about {country}."]
+    },
+    {
+      "tag": "country_capital",
+      "patterns": ["What is the capital of {country}?", "Tell me the capital of {country}", 
+                   "Capital city of {country}", "Where is {country}'s capital?", "What's the main city of {country}?"],
+      "responses": ["The capital of {country} is {capital}.", 
+                    "{capital} is the capital city of {country}.", 
+                    "The main city of {country} is {capital}."]
+    },
+    {
+      "tag": "country_population",
+      "patterns": ["What is the population of {country}?", "Tell me the population of {country}", 
+                   "Population in {country}", "How many people live in {country}?", "What's {country}'s population?"],
+      "responses": ["The population of {country} is approximately {population}.", 
+                    "About {population} people live in {country}.", 
+                    "{country} has a population of around {population}."]
+    },
+    {
+      "tag": "country_language",
+      "patterns": ["What language do they speak in {country}?", "Tell me about {country}'s language", 
+                   "Official language of {country}", "Languages spoken in {country}", "{country} language"],
+      "responses": ["The official language of {country} is {language}.", 
+                    "In {country}, they speak {language}.", 
+                    "{language} is the primary language spoken in {country}."]
+    },
+    {
+      "tag": "country_currency",
+      "patterns": ["What currency is used in {country}?", "Tell me about {country}'s currency", 
+                   "Currency of {country}", "Money used in {country}", "What's {country}'s currency?"],
+      "responses": ["The currency of {country} is {currency}.", 
+                    "In {country}, they use {currency}.", 
+                    "{currency} is the currency used in {country}."]
+    },
+    {
+      "tag": "country_continent",
+      "patterns": ["Which continent is {country} in?", "Tell me the continent of {country}", 
+                   "{country}'s continent", "Where is {country} located?", "Continent of {country}"],
+      "responses": ["{country} is located in {continent}.", 
+                    "The continent of {country} is {continent}.", 
+                    "{continent} is where you'll find {country}."]
+    },
+    {
+      "tag": "country_flag",
+      "patterns": ["Show me the flag of {country}", "What does the flag of {country} look like?", 
+                   "Flag of {country}", "Display {country}'s flag", "Flag image of {country}"],
+      "responses": ["Here is the flag of {country}: [image]", 
+                    "The flag of {country} looks like this: [image]", 
+                    "Displaying the flag of {country}: [image]"]
+    },
+    {
+      "tag": "country_map",
+      "patterns": ["Show me the map of {country}", "Where is {country} on the map?", 
+                   "Map of {country}", "Display {country}'s map", "Show {country} location on map"],
+      "responses": ["Here is the map of {country}: [image]", 
+                    "The location of {country} on the map: [image]", 
+                    "Displaying the map of {country}: [image]"]
+    }
+  ]
+}

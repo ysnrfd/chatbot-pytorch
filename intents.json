@@ -1,0 +1,613 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you?", "What's up?", "Good morning", "Good afternoon", "Good evening", "Hi there", "Greetings"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Hi! How can I help you today?", "Nice to see you!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care", "I have to go now", "Until next time", "Have a good one", "Bye bye", "Catch you later", "Farewell"],
+      "responses": ["Goodbye!", "See you later!", "Have a great day!", "Bye! Take care!", "Until next time!", "Take it easy!", "Bye bye!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "Thank you so much", "Appreciate it", "I appreciate your help", "Thanks for the assistance", "Much obliged"],
+      "responses": ["You're welcome!", "No problem!", "My pleasure!", "Happy to help!", "Anytime!", "Glad I could assist!", "You're welcome! How else can I assist you?"]
+    },
+    {
+      "tag": "options",
+      "patterns": ["What can you do?", "What are my options?", "How can you help?", "Tell me what you offer", "Show me what you can do", "Can you assist me with something?", "Help me out"],
+      "responses": ["I can assist you with various tasks. Just ask me anything!", 
+                    "I'm here to help with anything you need. Ask away!",
+                    "I can answer questions, provide information, or just chat with you."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Do you have a name?", "Who are you?", "What should I call you?", "Are you a bot?", "What do I call you?"],
+      "responses": ["I'm a chatbot!", "I'm your virtual assistant!", "You can call me Chatbot!", "I go by Chatbot.", "Yes, I'm an AI."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "How's the weather today?", "Is it going to rain?", "Check the weather", 
+                   "What's the forecast for tomorrow?", "Will it be sunny?", "Do I need an umbrella?", "Should I wear a jacket?", "Weather update"],
+      "responses": ["To check the weather, please provide your location.", 
+                    "I can find out the weather for you. Just let me know where you are!",
+                    "Let me check the weather forecast for you."]
+    },
+    {
+      "tag": "unknown",
+      "patterns": ["I don't know", "I'm not sure", "Maybe", "Not sure", "I'm confused", "What do you think?", 
+                   "I have no idea", "Can you clarify?", "I need more information", "Can you explain?"],
+      "responses": ["That's okay!", "No worries!", "It's alright not to know everything.", 
+                    "Sometimes it's okay not to be sure.", "I can try to provide more information if you'd like."]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": ["Tell me about yourself", "What are you?", "What can you tell me about your capabilities?", 
+                   "Who created you?", "What is your purpose?", "Why were you created?", "Are you human?"],
+      "responses": ["I'm an AI chatbot designed to assist you with information and tasks.", 
+                    "I'm here to provide you with information and engage in conversation.", 
+                    "I'm a virtual assistant created to help you with a wide range of queries.",
+                    "I am an artificial intelligence programmed to assist users like yourself."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Help me with something", "I'm stuck", 
+                   "Can you assist me?", "Help please", "Support needed", "Can you guide me?"],
+      "responses": ["Of course! What do you need help with?", 
+                    "Sure thing! Tell me what you need assistance with.", 
+                    "I'm here to help. Just let me know how I can assist you.",
+                    "How can I assist you today?"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?", "When were you created?", "Birthdate", "How long have you existed?"],
+      "responses": ["I don't have an age as I'm a virtual entity.", 
+                    "I exist in the digital realm, so I don't age.", 
+                    "I was created recently and am constantly learning.",
+                    "I am a relatively new creation in the digital world."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Do you know any jokes?", "Make me laugh", 
+                   "Share a funny story", "Humor me", "I could use a laugh", "Entertain me"],
+      "responses": ["Sure! Why don't skeletons fight each other? They don't have the guts!", 
+                    "What did one ocean say to the other ocean? Nothing, they just waved!", 
+                    "How does a penguin build its house? Igloos it together!",
+                    "Here's a joke for you: Why don't scientists trust atoms? Because they make up everything!"]
+    },
+    {
+      "tag": "music",
+      "patterns": ["Play some music", "Can you recommend music?", "What's your favorite song?", 
+                   "Listen to music", "Music suggestions", "Any good playlists?", "I want to hear some music", "Music recommendations"],
+      "responses": ["I can't play music, but I can recommend some great songs!", 
+                    "I don't have personal favorites, but I can suggest music genres or artists.",
+                    "Here are some music recommendations based on popular genres."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["Tell me the latest news", "What's happening in the world?", "Any news updates?", 
+                   "Current events", "Top headlines", "News summary", "What's the breaking news?", "Any recent news?"],
+      "responses": ["I can provide news updates if you specify a topic or category.", 
+                    "The news changes constantly. Let me know what you're interested in.",
+                    "Here are some of the latest news headlines."]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["Tell me about the latest technology", "What's new in tech?", "Tech trends", 
+                   "Emerging technologies", "Tech news", "Recent innovations", "What's cutting-edge in technology?", "Any tech updates?"],
+      "responses": ["The field of technology is vast and evolving. Is there a specific area you're interested in?",
+                    "There are many exciting developments in technology. What aspect would you like to explore?",
+                    "Here are some recent innovations in the world of technology."]
+    },
+    {
+      "tag": "education",
+      "patterns": ["Tell me about education trends", "What's new in education?", "Education updates", 
+                   "Learning innovations", "Educational news", "Recent developments in education", "What's happening in the world of learning?"],
+      "responses": ["Education is evolving rapidly. Are you interested in a particular aspect of education?",
+                    "There are various educational trends and innovations. What would you like to know more about?",
+                    "Here are some recent developments in the field of education."]
+    },
+    {
+      "tag": "health",
+      "patterns": ["Health tips", "What's new in health?", "Healthcare updates", 
+                   "Wellness information", "Medical news", "Recent health developments", "What's happening in healthcare?"],
+      "responses": ["Health and wellness are crucial. What specific health information are you looking for?",
+                    "There are many recent developments in healthcare. What aspect of health interests you?",
+                    "Here are some updates on health and wellness."]
+    },
+    {
+      "tag": "finance",
+      "patterns": ["Finance advice", "What's new in finance?", "Financial updates", 
+                   "Investment tips", "Money news", "Recent financial developments", "What's happening in finance?"],
+      "responses": ["Finance and investments are important topics. What financial information do you need?",
+                    "There are various updates in the world of finance. What specific area interests you?",
+                    "Here are some recent financial developments."]
+    },
+    {
+      "tag": "business",
+      "patterns": ["Business trends", "What's new in business?", "Business updates", 
+                   "Entrepreneurship news", "Recent business developments", "What's happening in the business world?", "Startup advice"],
+      "responses": ["Business trends are constantly changing. What aspect of business are you curious about?",
+                    "There are many recent developments in the business world. What business topic interests you?",
+                    "Here are some updates on business and entrepreneurship."]
+    },
+    {
+      "tag": "movies",
+      "patterns": ["Recommend movies", "What's a good movie to watch?", "Any movie suggestions?", 
+                   "Recent movies", "Best films", "Movie recommendations", "Top movies", "Favorite films"],
+      "responses": ["I can recommend movies based on different genres or themes.", 
+                    "There are many great movies out there. What genre are you interested in?",
+                    "Here are some popular movies across various genres."]
+    },
+    {
+      "tag": "books",
+      "patterns": ["Recommend books", "What's a good book to read?", "Any book suggestions?", 
+                   "Recent books", "Bestsellers", "Book recommendations", "Top books", "Favorite authors"],
+      "responses": ["I can suggest books from different genres or authors.", 
+                    "There are many great books to explore. What genre do you prefer?",
+                    "Here are some highly recommended books."]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Sports updates", "Latest sports news", "Sports scores", 
+                   "Upcoming matches", "Favorite sport", "Sporting events", "Athlete news"],
+      "responses": ["I can provide updates on various sports and sporting events.", 
+                    "Sports news changes frequently. What specific sport are you interested in?",
+                    "Here are some recent sports updates."]
+    },
+    {
+      "tag": "pets",
+      "patterns": ["Pet care tips", "Advice for pet owners", "Pet health", 
+                   "Popular pets", "Pet recommendations", "Animal care", "Pet adoption"],
+      "responses": ["Pets are wonderful companions. What specific pet care information do you need?",
+                    "There's a lot to learn about pet care. What kind of pet do you have or want?",
+                    "Here are some tips for taking care of pets."]
+    },
+    {
+      "tag": "travel",
+      "patterns": ["Travel advice", "Destination recommendations", "Best places to travel", 
+                   "Travel tips", "Vacation ideas", "Traveling abroad", "Top destinations", "Favorite travel spots"],
+      "responses": ["Traveling is exciting! Where are you planning to go or what do you want to know?",
+                    "There are many great travel destinations. What type of travel are you interested in?",
+                    "Here are some travel tips and destination recommendations."]
+    },
+    {
+      "tag": "story",
+      "patterns": ["Tell me a story", "Share a story", "Story time", 
+                   "Can you tell stories?", "Narrate a story", "Any interesting stories?", "Do you know any stories?"],
+      "responses": ["Once upon a time, in a land far away...",
+                    "Sure! Here's a story for you: Once there was a curious explorer...",
+                    "Here's a short story: In a small village nestled in the mountains..."]
+    },
+    {
+      "tag": "country",
+      "patterns": ["Tell me about a country", "Country information", "Interesting countries", 
+                   "Facts about countries", "Country facts", "Explore a country", "Learn about countries", "Country profile"],
+      "responses": ["Sure! Which country are you interested in learning about?",
+                    "I can provide information about different countries. Which one would you like to know about?",
+                    "Here are some interesting facts about different countries."]
+    },
+    {
+      "tag": "country_details",
+      "patterns": ["Tell me about {country}", "What do you know about {country}?", "Country profile of {country}", 
+                   "Information on {country}", "Details about {country}", "Learn about {country}"],
+      "responses": ["Let me find information about {country}.", 
+                    "I'll look up details about {country} for you.", 
+                    "Here are some facts about {country}."]
+    },
+    {
+      "tag": "country_capital",
+      "patterns": ["What is the capital of {country}?", "Tell me the capital of {country}", 
+                   "Capital city of {country}", "Where is {country}'s capital?", "What's the main city of {country}?"],
+      "responses": ["The capital of {country} is {capital}.", 
+                    "{capital} is the capital city of {country}.", 
+                    "The main city of {country} is {capital}."]
+    },
+    {
+      "tag": "country_population",
+      "patterns": ["What is the population of {country}?", "Tell me the population of {country}", 
+                   "Population in {country}", "How many people live in {country}?", "What's {country}'s population?"],
+      "responses": ["The population of {country} is approximately {population}.", 
+                    "About {population} people live in {country}.", 
+                    "{country} has a population of around {population}."]
+    },
+    {
+      "tag": "country_language",
+      "patterns": ["What language do they speak in {country}?", "Tell me about {country}'s language", 
+                   "Official language of {country}", "Languages spoken in {country}", "{country} language"],
+      "responses": ["The official language of {country} is {language}.", 
+                    "In {country}, they speak {language}.", 
+                    "{language} is the primary language spoken in {country}."]
+    },
+    {
+      "tag": "country_currency",
+      "patterns": ["What currency is used in {country}?", "Tell me about {country}'s currency", 
+                   "Currency of {country}", "Money used in {country}", "What's {country}'s currency?"],
+      "responses": ["The currency of {country} is {currency}.", 
+                    "In {country}, they use {currency}.", 
+                    "{currency} is the currency used in {country}."]
+    },
+    {
+      "tag": "country_continent",
+      "patterns": ["Which continent is {country} in?", "Tell me the continent of {country}", 
+                   "{country}'s continent", "Where is {country} located?", "Continent of {country}"],
+      "responses": ["{country} is located in {continent}.", 
+                    "The continent of {country} is {continent}.", 
+                    "{continent} is where you'll find {country}."]
+    },
+    {
+      "tag": "country_flag",
+      "patterns": ["Show me the flag of {country}", "What does the flag of {country} look like?", 
+                   "Flag of {country}", "Display {country}'s flag", "Flag image of {country}"],
+      "responses": ["Here is the flag of {country}: [image]", 
+                    "The flag of {country} looks like this: [image]", 
+                    "Displaying the flag of {country}: [image]"]
+    },
+    {
+      "tag": "country_map",
+      "patterns": ["Show me the map of {country}", "Where is {country} on the map?", 
+                   "Map of {country}", "Display {country}'s map", "Show {country} location on map"],
+      "responses": ["Here is the map of {country}: [image]", 
+                    "The location of {country} on the map: [image]", 
+                    "Displaying the map of {country}: [image]"]
+    },
+    
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening", "Howdy"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help?", "Hey! What can I do for you?", "Hi! How's it going?"],
+      "context": []
+  },
+  {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later", "Take care", "Until next time"],
+      "responses": ["Goodbye! Have a great day.", "Bye! Take care.", "See you later!"],
+      "context": []
+  },
+  {
+      "tag": "story",
+      "patterns": ["tell me story", "write story", "say story", "i want story"],
+      "responses": ["story: i am a chat bot my life is good im from the internet", "okay my name is chatbot im a bot my life is very strange i made with neural network"],
+      "context": []
+  },
+  {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "Thank you very much", "Appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help.", "Anytime!", "No problem."],
+      "context": []
+  },
+  {
+      "tag": "options",
+      "patterns": ["What can you do?", "What are my options?", "What services do you offer?", "How can you help me?"],
+      "responses": ["I can provide information about our products and services.",
+                    "I can assist with inquiries about our offerings.",
+                    "Feel free to ask me anything about what we provide."],
+      "context": []
+  },
+  {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "What are your opening hours?", "Hours of operation?"],
+      "responses": ["We are open from 9am to 6pm, Monday to Friday.",
+                    "Our business hours are from 9am to 6pm, Monday through Friday.",
+                    "We operate Monday to Friday, from 9am to 6pm."],
+      "context": []
+  },
+  {
+      "tag": "location",
+      "patterns": ["Where are you located?", "What's your address?", "Where can I find you?", "Location?"],
+      "responses": ["We are located at 123 Main St, City, State.",
+                    "Our address is 123 Main St, City, State.",
+                    "You can find us at 123 Main St, City, State."],
+      "context": []
+  },
+  {
+      "tag": "product_info",
+      "patterns": ["Tell me about your products", "What kinds of products do you have?", "Product information"],
+      "responses": ["We offer a wide range of products including [list of products].",
+                    "Our product lineup includes [list of products].",
+                    "You can find detailed information about our products on our website."],
+      "context": []
+  },
+  {
+      "tag": "service_info",
+      "patterns": ["Tell me about your services", "What services do you provide?", "Service information"],
+      "responses": ["We provide services such as [list of services].",
+                    "Our services include [list of services].",
+                    "You can learn more about our services on our website."],
+      "context": []
+  },
+  {
+      "tag": "pricing",
+      "patterns": ["What is the price?", "How much does it cost?", "Pricing information", "Price?"],
+      "responses": ["For pricing information, please visit our website or contact our sales team.",
+                    "Prices may vary. Please check our website or contact us directly for current pricing.",
+                    "We offer competitive pricing. Contact us for the most up-to-date information."],
+      "context": []
+  },
+  {
+      "tag": "payments",
+      "patterns": ["How can I pay?", "What payment methods do you accept?", "Payment options"],
+      "responses": ["We accept Visa, Mastercard, American Express, and PayPal.",
+                    "You can pay using Visa, Mastercard, American Express, or PayPal.",
+                    "We support multiple payment methods including Visa, Mastercard, American Express, and PayPal."],
+      "context": []
+  },
+  {
+      "tag": "delivery",
+      "patterns": ["How long does delivery take?", "Delivery time", "Shipping information"],
+      "responses": ["Delivery times vary depending on your location and selected shipping method.",
+                    "For estimated delivery times, please check our website or contact customer service.",
+                    "We aim to deliver orders as quickly as possible. Contact us for specific delivery details."],
+      "context": []
+  },
+  {
+      "tag": "contact",
+      "patterns": ["How can I contact you?", "Contact information", "Can I speak with someone?"],
+      "responses": ["You can contact us at [phone number] or email us at [email address].",
+                    "For assistance, reach out to our customer service team at [phone number] or [email address].",
+                    "Feel free to contact us. Our customer service team is here to help."],
+      "context": []
+  },
+  {
+      "tag": "feedback",
+      "patterns": ["I have feedback", "Feedback", "I want to leave feedback", "Comments"],
+      "responses": ["We appreciate your feedback! Please share your thoughts with us.",
+                    "Your feedback is valuable to us. Let us know how we can improve.",
+                    "We welcome your feedback. Tell us what you think."],
+      "context": []
+  },
+  {
+      "tag": "tech_support",
+      "patterns": ["Technical support", "Help with a problem", "I need tech support", "Issue with product"],
+      "responses": ["Our technical support team is available to assist you. Please provide details about the issue.",
+                    "For technical assistance, please describe the problem you're experiencing.",
+                    "We're here to help with any technical issues. Please let us know how we can assist you."],
+      "context": []
+  },
+  {
+      "tag": "order_status",
+      "patterns": ["Check order status", "Track my order", "Where is my order?", "Order update"],
+      "responses": ["To check the status of your order, please visit our website or contact our customer service.",
+                    "You can track your order on our website using your order number.",
+                    "For order updates, please log in to your account or contact us for assistance."],
+      "context": []
+  },
+  {
+      "tag": "membership",
+      "patterns": ["Membership benefits", "Joining your membership", "Member perks", "Benefits of membership"],
+      "responses": ["Our membership offers benefits such as [list of benefits].",
+                    "Membership includes perks like [list of perks].",
+                    "Learn more about the advantages of membership on our website."],
+      "context": []
+  },
+  {
+      "tag": "appointments",
+      "patterns": ["Schedule an appointment", "Book an appointment", "Appointment availability", "Appointment booking"],
+      "responses": ["To schedule an appointment, please contact our office during business hours.",
+                    "Appointments can be booked by calling us at [phone number].",
+                    "For availability, please call us to book an appointment."],
+      "context": []
+  },
+  {
+      "tag": "reservation",
+      "patterns": ["Make a reservation", "Book a table", "Reservation for dining", "Restaurant reservation"],
+      "responses": ["Reservations can be made by calling us directly.",
+                    "To book a table, please contact our restaurant at [phone number].",
+                    "For dining reservations, please call us to secure your booking."],
+      "context": []
+  },
+  {
+      "tag": "shipping",
+      "patterns": ["Shipping policy", "Information on shipping", "Shipping details", "Shipping options"],
+      "responses": ["Our shipping policy covers [summary of shipping policy].",
+                    "For shipping information, please refer to our policy on our website.",
+                    "Learn more about our shipping options and policies online."],
+      "context": []
+  },
+  {
+      "tag": "faq",
+      "patterns": ["FAQ", "Frequently asked questions", "Common questions", "Help"],
+      "responses": ["Check out our FAQ page for answers to common questions.",
+                    "Visit our FAQ section on our website for more information.",
+                    "Explore our FAQ page to find answers to frequently asked questions."],
+      "context": []
+  },
+  {
+      "tag": "fallback",
+      "patterns": ["Sorry", "I didn't get that", "What do you mean?", "Can you repeat that?"],
+      "responses": ["I'm sorry, I didn't understand.",
+                    "I'm sorry, could you please clarify?",
+                    "I apologize, but I'm not sure what you're asking."],
+      "context": []
+  },
+
+  {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey there", "Greetings", "What's up"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help?", "Hey! What can I do for you?"],
+      "context": []
+  },
+  {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care", "Catch you later"],
+      "responses": ["Goodbye! Have a great day.", "Bye! Take care.", "See you later!"],
+      "context": []
+  },
+  {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot", "Thank you so much"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!", "No problem!"],
+      "context": []
+  },
+  {
+      "tag": "options",
+      "patterns": ["What can you do?", "What services do you offer?", "How can you assist me?", "What are your capabilities?"],
+      "responses": ["I can provide information on our products and services.",
+                    "I'm here to assist with any inquiries you have.",
+                    "Feel free to ask me anything about our offerings."],
+      "context": []
+  },
+  {
+      "tag": "opening_hours",
+      "patterns": ["What are your hours?", "When are you open?", "What are your opening hours?", "What time do you open?"],
+      "responses": ["We are open from 9 AM to 6 PM every day.",
+                    "Our hours are from 9 AM to 6 PM, seven days a week.",
+                    "We operate daily from 9 AM to 6 PM."],
+      "context": []
+  },
+  {
+      "tag": "location",
+      "patterns": ["Where are you located?", "What's your address?", "Where can I find you?", "Location?"],
+      "responses": ["We are located on Main Street, City, State.",
+                    "Our address is Main Street, City, State.",
+                    "You can find us at Main Street, City, State."],
+      "context": []
+  },
+  {
+      "tag": "product_info",
+      "patterns": ["Tell me about your products", "What kind of products do you have?", "Product information"],
+      "responses": ["We offer a variety of products including [list of products].",
+                    "Our product line includes [list of products].",
+                    "You can find detailed information about our products on our website."],
+      "context": []
+  },
+  {
+      "tag": "service_info",
+      "patterns": ["Tell me about your services", "What services do you provide?", "Service information"],
+      "responses": ["We provide services such as [list of services].",
+                    "Our services include [list of services].",
+                    "For more details about our services, please visit our website."],
+      "context": []
+  },
+  {
+      "tag": "pricing",
+      "patterns": ["How much does it cost?", "What is the price?", "Pricing information", "Price?"],
+      "responses": ["For pricing information, please visit our website or contact our sales team.",
+                    "Prices may vary. For current pricing, please check our website or contact us directly.",
+                    "We offer competitive pricing. For exact pricing details, please get in touch with us."],
+      "context": []
+  },
+  {
+      "tag": "payments",
+      "patterns": ["How can I pay?", "What payment methods do you accept?", "Payment options"],
+      "responses": ["We accept Visa, Mastercard, American Express, and PayPal.",
+                    "You can use Visa, Mastercard, American Express, or PayPal for payments.",
+                    "We support multiple payment methods including Visa, Mastercard, American Express, and PayPal."],
+      "context": []
+  },
+  {
+      "tag": "delivery",
+      "patterns": ["How long does delivery take?", "Delivery time", "Shipping information"],
+      "responses": ["Delivery time depends on your location and the shipping method you choose.",
+                    "For estimated delivery time, please check our website or contact customer service.",
+                    "We aim to deliver orders as quickly as possible. For specific delivery details, contact us."],
+      "context": []
+  },
+  {
+      "tag": "contact",
+      "patterns": ["How can I contact you?", "Contact information", "Can I speak to someone?"],
+      "responses": ["You can reach us at [phone number] or email us at [email].",
+                    "For assistance, contact our customer service at [phone number] or [email].",
+                    "Feel free to contact us. Our customer service team is here to help."],
+      "context": []
+  },
+  {
+      "tag": "feedback",
+      "patterns": ["I have feedback", "Feedback", "I want to leave feedback", "Comments"],
+      "responses": ["We appreciate your feedback! Please share your thoughts with us.",
+                    "Your feedback is valuable to us. Let us know how we can improve.",
+                    "Welcome your feedback. Tell us what you think."],
+      "context": []
+  },
+  {
+      "tag": "technical_support",
+      "patterns": ["Technical support", "Help with a problem", "Need technical support", "Issue with a product"],
+      "responses": ["Our technical support team is ready to assist you. Please provide details of the issue.",
+                    "For technical assistance, please describe the problem you're experiencing.",
+                    "We're here to help with technical issues. Please explain how we can assist you."],
+      "context": []
+  },
+  {
+      "tag": "order_status",
+      "patterns": ["Check order status", "Track my order", "Where is my order?", "Order update"],
+      "responses": ["To check your order status, please visit our website or contact customer service.",
+                    "You can track your order using your order number on our website.",
+                    "For order updates, please log into your account or contact us for assistance."],
+      "context": []
+  },
+  {
+      "tag": "membership",
+      "patterns": ["Benefits of membership", "Joining membership", "Membership benefits", "Membership advantages"],
+      "responses": ["Our membership includes benefits such as [list of benefits].",
+                    "Membership offers advantages like [list of benefits].",
+                    "Read more about membership benefits on our website."],
+      "context": []
+  },
+  {
+      "tag": "appointment",
+      "patterns": ["Schedule an appointment", "Book an appointment", "Access appointments", "Appointment booking"],
+      "responses": ["To schedule an appointment, please contact us during business hours.",
+                    "Appointments can be booked by contacting us at [phone number].",
+                    "For access, please contact us to reserve an appointment."],
+      "context": []
+  },
+  {
+      "tag": "reservation",
+      "patterns": ["Make a reservation", "Book a table", "Reserve for dining", "Restaurant reservation"],
+      "responses": ["Reservations can be made by contacting us directly.",
+                    "To reserve a table, please call our restaurant at [phone number].",
+                    "To book a restaurant reservation, contact us to confirm your booking."],
+      "context": []
+  },
+  {
+      "tag": "shipping",
+      "patterns": ["Shipping policy", "Information about shipping", "Shipping details", "Shipping options"],
+      "responses": ["Our shipping policy includes [summary of shipping policy].",
+                    "For shipping information, please refer to our policy on our website."],
+      "context": []
+  },
+  {
+      "tag": "technology_info",
+      "patterns": ["Tell me about technology", "What's new in technology?", "Technology information", "Tech trends"],
+      "responses": ["Technology is constantly evolving. We offer the latest in [list of technology areas].",
+                    "Stay updated with the latest tech trends in [list of technology areas].",
+                    "Explore cutting-edge technology trends and innovations."],
+      "context": []
+  },
+  {
+      "tag": "AI_info",
+      "patterns": ["Artificial Intelligence info", "What is AI?", "AI technology", "AI applications"],
+      "responses": ["Artificial Intelligence (AI) is revolutionizing industries. Learn more about AI applications and technology.",
+                    "Explore the transformative power of Artificial Intelligence (AI) in various sectors.",
+                    "Discover how AI is reshaping the future with advanced technologies."],
+      "context": []
+  },
+  {
+      "tag": "IoT_info",
+      "patterns": ["Internet of Things info", "What is IoT?", "IoT technology", "IoT applications"],
+      "responses": ["The Internet of Things (IoT) connects devices for smarter living. Discover IoT applications and technology.",
+                    "Explore the impact of the Internet of Things (IoT) on everyday life and industries.",
+                    "Learn about IoT technologies that are shaping the future of connectivity."],
+      "context": []
+  },
+  {
+      "tag": "blockchain_info",
+      "patterns": ["Blockchain info", "What is Blockchain?", "Blockchain technology", "Blockchain applications"],
+      "responses": ["Blockchain technology is changing how data is stored and shared securely. Explore Blockchain applications and technology.",
+                    "Discover the potential of Blockchain technology in various sectors and applications.",
+                    "Learn about Blockchain innovations that are revolutionizing industries."],
+      "context": []
+  },
+  {
+      "tag": "cybersecurity_info",
+      "patterns": ["Cybersecurity info", "What is Cybersecurity?", "Cybersecurity technology", "Cybersecurity solutions"],
+      "responses": ["Cybersecurity protects against digital threats. Explore Cybersecurity technologies and solutions.",
+                    "Learn about the importance of Cybersecurity in safeguarding data and privacy.",
+                    "Discover Cybersecurity strategies and technologies to secure your digital assets."],
+      "context": []
+  }
+  
+  ]
+}
